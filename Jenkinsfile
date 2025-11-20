@@ -1,9 +1,9 @@
 pipeline {
 agent any
 stages {
-stage("example_milti_branch"){
+stage("dev_milti_branch"){
 steps {
-bat 'echo "this is multi branchpipeline"'
+bat 'echo "this is dev branchpipeline"'
 }
 }
 }
